@@ -17,13 +17,14 @@ The hardest part of the project was matching the business logic and the financia
 - numpy_financial
 - calendar
 - datetime
+- xlsxwriter
 
 
 # Installing & Running 
-Clone the repository 
-Navigate to the project directory
-Install the required packages using pip: "pip install -r requirements.txt"
-run 
+- Clone the repository 
+- Navigate to the project directory
+- Install the required packages using pip: "pip install -r requirements.txt"
+- run 
 
 
 This is what the final result looks like in Excel:
