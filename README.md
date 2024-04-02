@@ -9,3 +9,6 @@ As part of the logic in the report, it is possible to play with the early repaym
 The code knows how to receive a CSV file of basic loan data, and return an output of the loan flow forward in Excel, including a sheet that summarizes the entire flow
 
 The hardest part of the project was matching the business logic and the financial model. In the tests against the business side, the financial model in the report was found to be correct.
+
+This is what the final result looks like in Excel:
+<img width="446" alt="image" src="https://github.com/anatzaf/Python_Project_Forecast_Flow_Report/assets/157733416/14ee6742-d209-4b4b-bf9c-cf12bb45948a">
