@@ -29,7 +29,7 @@ https://mockaroo.com/
 - Clone the repository 
 - Navigate to the project directory
 - Install the required packages using pip: "pip install -r requirements.txt"
-- exac Run.py or enter Forecast_Flow_Report notebook
+- exac "Run.py" with the params or enter "NoteBookToRun" notebook
 
 
 This is what the final result looks like in Excel:
