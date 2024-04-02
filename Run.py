@@ -7,7 +7,6 @@ import calendar
 import xlsxwriter
 import argparse
 import sys
-from google.colab import drive,files
 
 
 if 'ipykernel' in sys.modules:
