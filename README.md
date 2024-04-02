@@ -1,17 +1,14 @@
 # Python_Project_Forecast_Flow_Report
 
-This project was created as part of the data engineering course, with the aim of optimizing processes at my workplace.
+This project was developed as part of a data engineering course, aiming optimize process within my workplace.
 
-The report knows how to take a data set of loans, and generate a future flow for them.
+The report is designed to take a dataset of loans and generate future cash flows for them. A key feature of this logic allows for adjustments in the early repayment rate, facilitating faster or slower loan portfolio repayment according to our analytical needs.
 
-As part of the logic in the report, it is possible to play with the early repayment rate so that the loan portfolio is repaid faster or slower - depending on what we want to examine.
+The code is capable of processing a CSV file containing basic loan information and outputs the future loan flow in an Excel format, including a summary sheet that aggregates the entire flow.
 
-The code knows how to receive a CSV file of basic loan data, and return an output of the loan flow forward in Excel, including a sheet that summarizes the entire flow
+The most challenging aspect of this project was aligning the business logic with the financial model. Upon testing against the business requirements, the financial model embedded within the report was validated for accuracy.
 
-The hardest part of the project was matching the business logic and the financial model. In the tests against the business side, the financial model in the report was found to be correct.
-
-I used the Mock Data website to generate about 1000 fictitious loan records
-https://mockaroo.com/
+For generating around 1000 fictitious loan records for testing, I utilized the Mock Data website (https://mockaroo.com/).
 
 
 
