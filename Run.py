@@ -164,5 +164,3 @@ export_data_to_excel(
 )
 
 
-files.download('split_loan_data.xlsx')
-
