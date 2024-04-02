@@ -19,12 +19,12 @@ else:
     parser = argparse.ArgumentParser(description="Financial parameters.")
 
     parser.add_argument('--rate_of_early_repayments', type=float, default=0.025,
-                        help='Rate of early repayments')
+                        help='')
     parser.add_argument('--fixed_fee', type=int, default=24,
-                        help='Fixed fee')
+                        help='')
     parser.add_argument('--current_month', type=lambda s: datetime.strptime(s, '%Y-%m-%d'),
                         default=datetime(2024, 2, 29),
-                        help='Current month (format YYYY-MM-DD)')
+                        help='The end of the month which the run begins')
     args = parser.parse_args()
 
     rate_of_early_repayments = args.rate_of_early_repayments
