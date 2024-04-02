@@ -10,6 +10,9 @@ The code knows how to receive a CSV file of basic loan data, and return an outpu
 
 The hardest part of the project was matching the business logic and the financial model. In the tests against the business side, the financial model in the report was found to be correct.
 
+I used the Mock Data website to generate about 1000 fictitious loan records
+https://mockaroo.com/
+
 # Prerequisites
 - Python 3.11
 - pip
