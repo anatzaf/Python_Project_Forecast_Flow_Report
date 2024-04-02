@@ -22,12 +22,14 @@ https://mockaroo.com/
 - datetime
 - xlsxwriter
 
+# For an overview and Documentation
+- Enter the notebook called  Forecast_Flow_Report
 
 # Installing & Running 
 - Clone the repository 
 - Navigate to the project directory
 - Install the required packages using pip: "pip install -r requirements.txt"
-- run 
+- exac Run.py or enter Forecast_Flow_Report notebook
 
 
 This is what the final result looks like in Excel:
